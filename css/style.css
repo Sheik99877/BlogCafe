@@ -60,8 +60,16 @@ img {
 .centrar-texto {
     text-align: center;
 }
-.header {
+
+/* Header */
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+.nowebp .header {
     background-image: url(../img/banner.jpg);
+}
+
+.header {
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
